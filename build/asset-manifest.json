@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e42d420.css",
+    "main.js": "/static/js/main.ef22bcc8.js",
+    "static/media/PARIVARTRAN.png": "/static/media/PARIVARTRAN.bf58f4eac164bac921b9.png",
+    "index.html": "/index.html",
+    "main.7e42d420.css.map": "/static/css/main.7e42d420.css.map",
+    "main.ef22bcc8.js.map": "/static/js/main.ef22bcc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e42d420.css",
+    "static/js/main.ef22bcc8.js"
+  ]
+}
