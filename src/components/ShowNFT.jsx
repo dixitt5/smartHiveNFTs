@@ -130,7 +130,7 @@ const ShowNFT = () => {
 
               <div className="flex flex-col">
                 <small className="text-xs">Current Price</small>
-                <p className="text-sm font-semibold">{nft?.cost} BIT </p>
+                <p className="text-sm font-semibold">{nft?.cost} OKT </p>
               </div>
             </div>
           </div>
