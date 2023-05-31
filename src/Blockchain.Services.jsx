@@ -151,21 +151,21 @@ const getStatus = async ({ id }) => {
   }
 };
 
-const setStatus = async ({id}) => {
+const setStatus = async ({ id }) => {
   try {
     const contract = await getEtheriumContract();
     const sender = getGlobalState("connectedAccount");
     // console.log(id);
-    const resp = await contract.methods.setSaleStatus(Number(id)).send({from: sender});
+    const resp = await contract.methods
+      .setSaleStatus(Number(id))
+      .send({ from: sender });
     // resp.await();
     console.log(resp);
     return resp;
   } catch (error) {
     reportError(error);
   }
-}
-
-
+};
 
 const reportError = (error) => {
   setAlert(JSON.stringify(error), "red");
